@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Korona Tattoo Studio: tatuajes personalizados, blackwork, lettering y fine line." name="description"/>
+<title>KORONA — Tattoo Studio</title>
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
+<!-- Tipografías -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&amp;family=Oswald:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="css/styles.css" rel="stylesheet"/>
+<link href="img/isotipo_korona.jpg" rel="icon" type="image/jpeg"/></head>
+<body>
+<!-- NAVEGACIÓN -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top korona-nav">
+<div class="container">
+<a class="navbar-brand brand" href="#inicio"><img alt="Korona" class="korona-logo" src="img/logo_korona.jpg"/></a>
+<button aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú" class="navbar-toggler" data-bs-target="#menuPrincipal" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="menuPrincipal">
+<ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+<li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+<li class="nav-item"><a class="nav-link" href="#nosotros">El estudio</a></li>
+<li class="nav-item"><a class="nav-link" href="#servicios">Estilos</a></li>
+<li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li><li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+<li class="nav-item"><a class="btn btn-korona btn-sm ms-lg-2" href="#contacto">Reservar consulta</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<!-- CARRUSEL PRINCIPAL -->
+<header id="inicio">
+<div class="carousel slide carousel-fade" data-bs-ride="carousel" id="koronaCarousel">
+<div class="carousel-indicators">
+<button aria-current="true" aria-label="Imagen 1" class="active" data-bs-slide-to="0" data-bs-target="#koronaCarousel" type="button"></button>
+<button aria-label="Imagen 2" data-bs-slide-to="1" data-bs-target="#koronaCarousel" type="button"></button>
+<button aria-label="Imagen 3" data-bs-slide-to="2" data-bs-target="#koronaCarousel" type="button"></button>
+</div>
+<div class="carousel-inner">
+<div class="carousel-item active hero-slide" style="background-image:url('img/foto_13.jpg')">
+    <video class="video-fondo" autoplay muted playsinline loop>
+  <source src="videos/video_18.mp4" type="video/mp4">
+</video>   
+<div class="hero-shade"></div>
+<div class="container hero-content">
+<p class="eyebrow">TATTOO STUDIO · MONTEVIDEO</p>
+<h1>Tu historia.<br/><span>Nuestra tinta.</span></h1>
+<p class="hero-copy">Diseños personalizados que convierten ideas en piezas únicas.</p>
+<a class="btn btn-korona btn-lg" href="#contacto">Empezá tu proyecto <i class="bi bi-arrow-up-right"></i></a>
+</div>
+<div class="hero-isotipo"><img alt="Korona" src="img/isotipo_korona.jpg"/></div></div>
+<div class="carousel-item hero-slide" style="background-image:url('img/foto_16.jpg')">
+    <video class="video-fondo" autoplay muted playsinline loop>
+  <source src="videos/video_30.mp4" type="video/mp4">
+</video>
+<div class="hero-shade"></div>
+<div class="container hero-content">
+<p class="eyebrow">ARTE · IDENTIDAD · EXPRESIÓN</p>
+<h2>Una pieza<br/><span>solo tuya.</span></h2>
+<p class="hero-copy">Cada tatuaje nace de una idea y se trabaja hasta encontrar su forma.</p>
+<a class="btn btn-korona btn-lg" href="#servicios">Conocé los estilos <i class="bi bi-arrow-up-right"></i></a>
+</div>
+<div class="hero-isotipo"><img alt="Korona" src="img/isotipo_korona.jpg"/></div></div>
+<div class="carousel-item hero-slide" style="background-image:url('img/foto_11.jpg')">
+    <video class="video-fondo" autoplay muted playsinline loop>
+  <source src="videos/IMG_0033.MOV" type="video/mp4">
+</video>
+<div class="hero-shade"></div>
+<div class="container hero-content">
+<p class="eyebrow">KORONA TATTOO STUDIO</p>
+<h2>Diseñado<br/><span>para permanecer.</span></h2>
+<p class="hero-copy">Un espacio de trabajo cuidado, creativo y centrado en cada persona.</p>
+<a class="btn btn-korona btn-lg" href="#nosotros">Descubrí Korona <i class="bi bi-arrow-up-right"></i></a>
+</div>
+<div class="hero-isotipo"><img alt="Korona" src="img/isotipo_korona.jpg"/></div></div>
+</div>
+<button aria-label="Anterior" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#koronaCarousel" type="button">
+<span class="carousel-control-prev-icon"></span>
+</button>
+<button aria-label="Siguiente" class="carousel-control-next" data-bs-slide="next" data-bs-target="#koronaCarousel" type="button">
+<span class="carousel-control-next-icon"></span>
+</button>
+</div>
+</header>
+<!-- PRESENTACIÓN -->
+<section class="section-space" id="nosotros">
+<div class="container">
+<div class="row align-items-center g-5">
+<div class="col-lg-6">
+<div class="about-image">
+<img alt="Artista de Korona Tattoo" src="foto_10.jpg"/>
+
+</div>
+</div>
+<div class="col-lg-6">
+<p class="eyebrow text-red">CONOCÉ KORONA</p>
+<h2 class="section-title">Más que tinta.<br/><span>Una forma de expresión.</span></h2>
+<p class="body-copy">Korona es un estudio de tatuajes pensado para transformar ideas personales en diseños con identidad. Cada proyecto se desarrolla de manera cercana, cuidando el concepto, el detalle y la experiencia de cada cliente.</p>
+<p class="body-copy">Creemos en el valor de lo auténtico: escuchar, diseñar y crear piezas que tengan un significado propio.</p>
+<a class="text-link" href="#contacto">Hablemos de tu idea <i class="bi bi-arrow-right"></i></a>
+</div>
+</div>
+</div>
+</section>
+<!-- ESTILOS / TARJETAS -->
+<section class="section-space services-section" id="servicios">
+<div class="container">
+<div class="section-heading text-center">
+<p class="eyebrow text-red">NUESTRO TRABAJO</p>
+<h2 class="section-title">Encontrá tu <span>estilo.</span></h2>
+<p class="body-copy mx-auto">Cada técnica tiene su propio lenguaje. Explorá algunos de los estilos que trabajamos.</p>
+</div>
+<div class="row g-4 mt-3">
+<div class="col-md-6 col-lg-4">
+<article class="service-card h-100">
+<img alt="Tatuaje de estilo blackwork" loading="lazy" src="foto_13.jpg"/>
+<div class="service-card-content">
+<span class="card-number">01 / ESTILO</span>
+<h3>Lettering</h3>
+<p>Palabras y composiciones con identidad propia.</p>
+<a class="card-link" href="#contacto">Consultar <i class="bi bi-arrow-up-right"></i></a>
+</div>
+</article>
+</div>
+<div class="col-md-6 col-lg-4">
+<article class="service-card h-100">
+<img alt="Tatuaje de lettering" loading="lazy" src="poster_17.jpg"/>
+<div class="service-card-content">
+<span class="card-number">02 / ESTILO</span>
+<h3>Tatuajes personalizados</h3>
+<p>Cada pieza nace de una idea y se adapta a tu historia.</p>
+<a class="card-link" href="#contacto">Consultar <i class="bi bi-arrow-up-right"></i></a>
+</div>
+</article>
+</div>
+<div class="col-md-6 col-lg-4">
+<article class="service-card h-100">
+<img alt="Tatuaje de puntillismo y líneas finas" loading="lazy" src="foto_1.jpg"/>
+<div class="service-card-content">
+<span class="card-number">03 / ESTILO</span>
+<h3>Fine line y detalles</h3>
+<p>Trazos delicados y diseños que destacan por sus detalles.</p>
+<a class="card-link" href="#contacto">Consultar <i class="bi bi-arrow-up-right"></i></a>
+</div>
+</article>
+</div>
+</div>
+</div>
+</section>
+<!-- LLAMADO A LA ACCIÓN -->
+<section class="section-space gallery-section" id="galeria"><div class="container"><div class="section-heading text-center"><p class="eyebrow text-red">KORONA EN MOVIMIENTO</p><h2 class="section-title">El arte habla <span>por sí solo.</span></h2><p class="body-copy mx-auto">Cada pieza cuenta una historia. Mirá los trabajos en movimiento.</p></div><div aria-label="Galería de videos de tatuajes" class="carousel slide video-showcase" data-bs-interval="false" id="videoShowcase"><div class="carousel-inner"><div class="carousel-item active"><div class="video-stage"><video aria-label="Tatuaje Korona, video 1" class="showcase-video" muted="" playsinline="" poster="img/poster_17.jpg" preload="metadata"><source src="videos/video_17.mp4" type="video/mp4"/></video><div class="video-counter">01 / 14</div></div></div><div class="carousel-item"><div class="video-stage"><video aria-label="Tatuaje Korona, video 2" class="showcase-video" muted="" playsinline="" poster="img/poster_18.jpg" preload="metadata"><source src="videos/video_18.mp4" type="video/mp4"/></video><div class="video-counter">02 / 14</div></div></div><div class="carousel-item"><div class="video-stage"><video aria-label="Tatuaje Korona, video 3" class="showcase-video" muted="" playsinline="" poster="img/poster_19.jpg" preload="metadata"><source src="videos/video_19.mp4" type="video/mp4"/></video><div class="video-counter">03 / 14</div></div></div><div class="carousel-item"><div class="video-stage"><video aria-label="Tatuaje Korona, video 4" class="showcase-video" muted="" playsinline="" poster="img/poster_20.jpg" preload="metadata"><source src="videos/video_20.mp4" type="video/mp4"/></video><div class="video-counter">04 / 14</div></div></div><div class="carousel-item"><div class="video-stage"><video aria-label="Tatuaje Korona, video 5" class="showcase-video" muted="" playsinline="" poster="img/poster_21.jpg" preload="metadata"><source src="videos/video_21.mp4" type="video/mp4"/></video><div class="video-counter">05 / 14</div></div></div><div class="carousel-item"><div class="video-stage"><video aria-label="Tatuaje Korona, video 6" class="showcase-video" muted="" playsinline="" poster="img/poster_22.jpg" preload="metadata"><source src="videos/video_22.mp4" type="video/mp4"/></video><div class="video-counter">06 / 14</div></div></div><div class="carousel-item"><div class="video-stage"><video aria-label="Tatuaje Korona, video 7" class="showcase-video" muted="" playsinline="" poster="img/poster_23.jpg" preload="metadata"><source src="videos/video_23.mp4" type="video/mp4"/></video><div class="video-counter">07 / 14</div></div></div><div class="carousel-item"><div class="video-stage"><video aria-label="Tatuaje Korona, video 8" class="showcase-video" muted="" playsinline="" poster="img/poster_24.jpg" preload="metadata"><source src="videos/video_24.mp4" type="video/mp4"/></video><div class="video-counter">08 / 14</div></div></div><div class="carousel-item"><div class="video-stage"><video aria-label="Tatuaje Korona, video 9" class="showcase-video" muted="" playsinline="" poster="img/poster_25.jpg" preload="metadata"><source src="videos/video_25.mp4" type="video/mp4"/></video><div class="video-counter">09 / 14</div></div></div><div class="carousel-item"><div class="video-stage"><video aria-label="Tatuaje Korona, video 10" class="showcase-video" muted="" playsinline="" poster="img/poster_26.jpg" preload="metadata"><source src="videos/video_26.mp4" type="video/mp4"/></video><div class="video-counter">10 / 14</div></div></div><div class="carousel-item"><div class="video-stage"><video aria-label="Tatuaje Korona, video 11" class="showcase-video" muted="" playsinline="" poster="img/poster_27.jpg" preload="metadata"><source src="videos/video_27.mp4" type="video/mp4"/></video><div class="video-counter">11 / 14</div></div></div><div class="carousel-item"><div class="video-stage"><video aria-label="Tatuaje Korona, video 12" class="showcase-video" muted="" playsinline="" poster="img/poster_28.jpg" preload="metadata"><source src="videos/video_28.mp4" type="video/mp4"/></video><div class="video-counter">12 / 14</div></div></div><div class="carousel-item"><div class="video-stage"><video aria-label="Tatuaje Korona, video 13" class="showcase-video" muted="" playsinline="" poster="img/poster_29.jpg" preload="metadata"><source src="videos/video_29.mp4" type="video/mp4"/></video><div class="video-counter">13 / 14</div></div></div><div class="carousel-item"><div class="video-stage"><video aria-label="Tatuaje Korona, video 14" class="showcase-video" muted="" playsinline="" poster="img/poster_30.jpg" preload="metadata"><source src="videos/video_30.mp4" type="video/mp4"/></video><div class="video-counter">14 / 14</div></div></div></div><button aria-label="Anterior video" class="carousel-control-prev video-arrow" data-bs-slide="prev" data-bs-target="#videoShowcase" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span></button><button aria-label="Siguiente video" class="carousel-control-next video-arrow" data-bs-slide="next" data-bs-target="#videoShowcase" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span></button></div><div class="section-heading text-center mt-5 pt-4"><p class="eyebrow text-red">GALERÍA DE TATUAJES</p><h2 class="section-title">Estilo <span>Korona.</span></h2><p class="body-copy mx-auto">Una selección de tatuajes realizados en el estudio.</p></div><div class="row g-3 mt-3 tattoo-gallery"><div class="col-6 col-lg-3"><a aria-label="Ver tatuaje de Korona" class="gallery-image" href="img/foto_0.jpg" rel="noopener" target="_blank"><img alt="Tatuaje realizado en Korona" loading="lazy" src="img/foto_0.jpg"/></a></div><div class="col-6 col-lg-3"><a aria-label="Ver tatuaje de Korona" class="gallery-image" href="img/foto_3.jpg" rel="noopener" target="_blank"><img alt="Tatuaje realizado en Korona" loading="lazy" src="img/foto_3.jpg"/></a></div><div class="col-6 col-lg-3"><a aria-label="Ver tatuaje de Korona" class="gallery-image" href="img/foto_5.jpg" rel="noopener" target="_blank"><img alt="Tatuaje realizado en Korona" loading="lazy" src="img/foto_5.jpg"/></a></div><div class="col-6 col-lg-3"><a aria-label="Ver tatuaje de Korona" class="gallery-image" href="img/foto_9.jpg" rel="noopener" target="_blank"><img alt="Tatuaje realizado en Korona" loading="lazy" src="img/foto_9.jpg"/></a></div><div class="col-6 col-lg-3"><a aria-label="Ver tatuaje de Korona" class="gallery-image" href="img/foto_11.jpg" rel="noopener" target="_blank"><img alt="Tatuaje realizado en Korona" loading="lazy" src="img/foto_11.jpg"/></a></div><div class="col-6 col-lg-3"><a aria-label="Ver tatuaje de Korona" class="gallery-image" href="img/foto_13.jpg" rel="noopener" target="_blank"><img alt="Tatuaje realizado en Korona" loading="lazy" src="img/foto_13.jpg"/></a></div><div class="col-6 col-lg-3"><a aria-label="Ver tatuaje de Korona" class="gallery-image" href="img/foto_16.jpg" rel="noopener" target="_blank"><img alt="Tatuaje realizado en Korona" loading="lazy" src="img/foto_16.jpg"/></a></div><div class="col-6 col-lg-3"><a aria-label="Ver tatuaje de Korona" class="gallery-image" href="img/foto_1.jpg" rel="noopener" target="_blank"><img alt="Tatuaje realizado en Korona" loading="lazy" src="img/foto_1.jpg"/></a></div></div></div></section><section class="quote-section">
+<div class="container text-center">
+<p class="eyebrow">TU IDEA EMPIEZA ACÁ</p>
+<h2>Las mejores historias<br/>merecen <span>llevarse en la piel.</span></h2>
+<a class="btn btn-korona btn-lg mt-3" href="#contacto">Contanos tu idea</a>
+</div>
+</section>
+<!-- CONTACTO -->
+<section class="section-space contact-section" id="contacto">
+<div class="container">
+<div class="row g-5 align-items-center"><div class="col-lg-5">
+<p class="eyebrow text-red">CONTACTO</p>
+<h2 class="section-title">Hagamos algo<br/><span>único.</span></h2>
+<p class="body-copy">¿Tenés una idea, una referencia o querés consultar por un diseño? Completá el formulario y contanos qué estás imaginando.</p>
+<div class="contact-detail"><i class="bi bi-instagram"></i><span>Instagram · @tattoo.korona</span></div>
+<div class="contact-detail"><i class="bi bi-geo-alt"></i><span>Montevideo, Uruguay</span></div>
+<div class="contact-detail"><i class="bi bi-clock"></i><span>Atención con agenda previa</span></div>
+</div>
+<div class="col-lg-7 d-flex justify-content-center align-items-center">    
+<a
+  href="https://wa.me/59891781392?text=Hola%20Korona%2C%20quiero%20consultar%20por%20un%20tatuaje."
+  target="_blank"
+  rel="noopener noreferrer"
+  class="btn btn-success btn-lg"
+>
+  <i class="bi bi-whatsapp"></i> Consultar por WhatsApp
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- PIE DE PÁGINA -->
+<footer class="footer">
+<div class="container">
+<div class="row align-items-center gy-3">
+<div class="col-md-4">
+<a class="footer-brand" href="#inicio"><img alt="Korona" class="korona-footer-logo" src="img/logo_korona.jpg"/></a>
+<p class="footer-small mb-0">Tattoo studio · Montevideo, Uruguay</p>
+</div>
+<div class="col-md-4 text-md-center">
+<a class="footer-link" href="#inicio">Inicio</a>
+<a class="footer-link" href="#servicios">Estilos</a>
+<a class="footer-link" href="#contacto">Contacto</a>
+</div>
+<div class="col-md-4 text-md-end social-links">
+<a aria-label="Instagram" href="https://www.instagram.com/" rel="noopener" target="_blank"><i class="bi bi-instagram"></i></a>
+</div>
+</div>
+<hr/>
+<div class="d-flex flex-column flex-md-row justify-content-between gap-2">
+<p class="footer-small mb-0">© 2026 Korona Tattoo Studio. Todos los derechos reservados.</p>
+<p class="footer-small mb-0">Diseño web · Bootstrap 5</p>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
